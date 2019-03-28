@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Gallery</title>
+</head>
+<body bgcolor=#000000><br><center>
+{% for image_name in image_names %}
+<a href="{{url_for('get_videos', filename=image_name)}}"><img src="{{url_for('send_image', filename=image_name)}}.png" onerror=this.src="/thumbnails/error.png" /></a>
+{% endfor %}
+</center>
+</body>
+</html>
