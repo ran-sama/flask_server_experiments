@@ -30,5 +30,9 @@ Add a cleanup routine on files older than 24 hours:
 @hourly find /media/kingdian/up/* -mtime 1 -type f -not -name 'index.html' -delete
 ```
 
+## What does the gallery look like?
+
+![alt text](https://raw.githubusercontent.com/ran-sama/flask_server_experiments/master/gallery_example.png)
+
 ## License
 Licensed under the WTFPL license.
