@@ -32,7 +32,7 @@ Add a cleanup routine on files older than 24 hours:
 
 ## What does the gallery look like?
 
-![alt text](https://raw.githubusercontent.com/ran-sama/flask_server_experiments/master/gallery_example.png)
+![alt text](https://raw.githubusercontent.com/ran-sama/flask_server_experiments/master/gallery_example.jpg)
 
 ## License
 Licensed under the WTFPL license.
